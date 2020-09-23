@@ -1,0 +1,53 @@
+Type=Exe
+Form=frmMain.frm
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\SYSTEM\stdole2.tlb#OLE Automation
+Form=frmSub.frm
+Object={EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}#1.1#0; SHDOCVW.DLL
+Object={C1A8AF28-1257-101B-8FB0-0020AF039CA3}#1.1#0; MCI32.OCX
+Module=Mod1; Mod1.bas
+Form=frmSplash.frm
+Form=frmFly1.frm
+Form=frmFly2.frm
+IconForm="frmMain"
+Startup="frmSplash"
+HelpFile=""
+Title="Tutorial"
+ExeName32="Tutorial.exe"
+Command32=""
+Name="Tutorial"
+HelpContextID="0"
+Description="Visual Basic Tutorial"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=48
+AutoIncrementVer=1
+ServerSupportFiles=0
+VersionComments="Visual Basic 6.0 Tutorial"
+VersionCompanyName="BlueSoft"
+VersionFileDescription="Tutorial"
+VersionLegalCopyright="©2003 BlueSoft"
+VersionLegalTrademarks="®BlueSoft"
+VersionProductName="Visual Basic 6.0 Tutorial"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+DebugStartupOption=0
+
+[CodeSMART]
+Task_UID=12_08_03_14_46_51
+
+[MS Transaction Server]
+AutoRefresh=1

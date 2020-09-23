@@ -1,0 +1,263 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>Variables</title>
+</head>
+<body>
+<!--This Table is for Heding Graphic-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td align= center><img alt="Head1 (10K)" src="../Images/Head1.gif" height="59" width="585" /></td></tr></table>
+<!--This Table will be for Top Line-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td background="../Images/topline12.gif" width="100%" height="13"></td>
+</tr>
+</table>
+<!--This Table is for the Heading-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td align = "center"><FONT FACE="Trebuchet MS" SIZE="5" COLOR=#ff6699>Variable Declarations</Font></td></tr></table>
+<!--This Table will be for Top Line-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td background="../Images/topline12.gif" width="100%" height="13"></td>
+</tr>
+</table>
+<!--This Table Will Be For Declaring Variables-->
+<table width="100%" border="0">
+<tr>
+<td width="1%"><img alt="Bullet2 (1K)" src="../Images/Bullet2.gif" height="23" width="28" /></td>
+<td><FONT FACE="Trebuchet MS" SIZE="3" COLOR=#ff3333><b>Declaring Variables</b></Font></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Many Times We Declare Variables Like This</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><FONT FACE="Trebuchet MS" SIZE="3" COLOR=#333399>Dim</Font> strName, strAddress, strCity <FONT FACE="Trebuchet MS" SIZE="3" COLOR=#333399>As String</Font></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>But Here Only strName will be Declared as String While  </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Others Will Be Declared as Variants. As You Know Variants</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Use More Memory This Degrades Your Application's Performance.</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>The Right Way Is Like This</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><FONT FACE="Trebuchet MS" SIZE="3" COLOR=#333399>Dim</Font> strName <FONT FACE="Trebuchet MS" SIZE="3" COLOR=#333399>As String</Font>, strAddress <FONT FACE="Trebuchet MS" SIZE="3" COLOR=#333399>As String</Font>, strCity <FONT FACE="Trebuchet MS" SIZE="3" COLOR=#333399>As String</Font></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Here all the Variables Will Be Declared as String.</td>
+</tr>
+</table>
+<!--This Table Is For Using Right Kind Of Variables-->
+<table width="100%" border="0">
+<tr>
+<td width="1%"><img alt="Bullet3 (1K)" src="../Images/Bullet3.gif" height="25" width="21" /></td>
+<td><FONT FACE="Trebuchet MS" SIZE="3" COLOR=#ff3333><b>Useing Right Kind Of Variables</b></Font></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>As a Programmer You Would know that What Kind Of Calculations or</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>What Operations You want to Perform With Different Variables in</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Your Application. If You are Declaring Any Variable Which Would</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Get the Message-Box's Return Value, Then there is No Need to Declare</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>It As an Integer or Long. Instead Of that You Can Use Byte(0 to 255) Which</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Falls in the Range of The Message-Box's Returned Value. Using Integer or</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Long over here will Require More Memory than a Byte</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><FONT FACE="Trebuchet MS" SIZE="3" COLOR=#009933>I had also Read Somewhere That If an Integer is Required than Use</Font></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><FONT FACE="Trebuchet MS" SIZE="3" COLOR=#009933>Long Because Long is 32-bit and Integer is 16-bit. Our Operating System</Font></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><FONT FACE="Trebuchet MS" SIZE="3" COLOR=#009933>Is 32-bit So it will be More Convinient for Processor to Work With Long</Font></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><FONT FACE="Trebuchet MS" SIZE="3" COLOR=#009933>Which are 32-bit In place of Integers which are 16-bit.</Font></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><FONT FACE="Trebuchet MS" SIZE="3" COLOR=#3366cc>One More Thing Use Variable Length Strings Instead of Fixed Length</Font></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><FONT FACE="Trebuchet MS" SIZE="3" COLOR=#3366cc>Strings. Fixed Length Strings are Slower Compared to the Other.</Font></td>
+</tr>
+</table>
+<!--This Table Is For Using shortcut Declaring Of Variables-->
+<table width="100%" border="0">
+<tr>
+<td width="1%"><img alt="Bullet4 (1K)" src="../Images/Bullet4.gif" height="23" width="27" /></td>
+<td><FONT FACE="Trebuchet MS" SIZE="3" COLOR=#ff3333><b>Another Way Of Declaring Variables</b></Font></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>You can also Declare Variables By their TypeCast</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Eg:- <FONT FACE="Trebuchet MS" SIZE="3" COLOR=#333399>Dim</Font> strName <FONT FACE="Trebuchet MS" SIZE="3" COLOR=#333399>As String</Font> can Also Be written As</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><FONT FACE="Trebuchet MS" SIZE="3" COLOR=#333399>Dim</Font> strName$</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>For Integers......  <FONT FACE="Trebuchet MS" SIZE="3" COLOR=#333399>Dim</Font> intNumber%</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>For Single......  <FONT FACE="Trebuchet MS" SIZE="3" COLOR=#333399>Dim</Font> sngNumber!</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>For Double......  <FONT FACE="Trebuchet MS" SIZE="3" COLOR=#333399>Dim</Font> dblNumber#</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>For Long......  <FONT FACE="Trebuchet MS" SIZE="3" COLOR=#333399>Dim</Font> lngNumber&</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>For Currency......  <FONT FACE="Trebuchet MS" SIZE="3" COLOR=#333399>Dim</Font> curNumber@</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>You Can Get All the Signs Related To this In Your MSDN Collection</td>
+</tr>
+</table>
+<!--This Table Is For Using static or Dynamic Variables-->
+<table width="100%" border="0">
+<tr>
+<td width="1%"><img alt="Bullet5 (1K)" src="../Images/Bullet5.gif" height="23" width="28" /></td>
+<td><FONT FACE="Trebuchet MS" SIZE="3" COLOR=#ff3333><b>Using Static and Dynamic Variables</b></Font></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Static variables reside in the memory for the whole Execution time.</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>While Dynamic Variables are Procedure Level Variables That are Only</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Created if that Procedure is Entered During Execution. They are Also</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Destroyed When The Execution of that Particular Procedure Ends.</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>This Way By Using Dynamic Variables You Create More Robust Applications.</td>
+</tr>
+</table>
+<!--This Table Is For Reclaiming Memory From Variables-->
+<table width="100%" border="0">
+<tr>
+<td width="1%"><img alt="Bullet2 (1K)" src="../Images/Bullet2.gif" height="23" width="28" /></td>
+<td><FONT FACE="Trebuchet MS" SIZE="3" COLOR=#ff3333><b>Reclaiming Memory from Variables</b></Font></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>If By any Means You Need to Use Static Variables Then You can</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Reclaim Memory by Destroying if they are not Needed any more.</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Strings can be destroyed using <FONT FACE="Trebuchet MS" SIZE="3" COLOR=#333399>vbNullString</Font> keyword</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Eg:- strName = <FONT FACE="Trebuchet MS" SIZE="3" COLOR=#333399>vbNullString</Font> Destroys strName Variable</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>For Forms That are Loaded In Memory You Can Unload Them</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>with <FONT FACE="Trebuchet MS" SIZE="3" COLOR=#333399>Unload</Font> <i>(FormName)</i> keyWord</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>For Variants You Have To Use <FONT FACE="Trebuchet MS" SIZE="3" COLOR=#333399>Empty</Font> KeyWord</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>varX = <FONT FACE="Trebuchet MS" SIZE="3" COLOR=#333399>Empty</Font> Destroys varX named Variant.</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>And Objects Can Be Destroyed By Nothing Keyword</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><FONT FACE="Trebuchet MS" SIZE="3" COLOR=#333399>Set</Font> objXYZ = <FONT FACE="Trebuchet MS" SIZE="3" COLOR=#333399>Nothing</Font></td>
+</tr>
+</table>
+<!--This table is for last tip-->
+<table width="100%" border="0">
+<tr>
+<td width="1%"><img alt="Bullet3 (1K)" src="../Images/Bullet3.gif" height="25" width="21" /></td>
+<td><FONT FACE="Trebuchet MS" SIZE="3" COLOR=#ff3333><b>One Last Tip</b></Font></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Always Name You Variables Using the Right Kind Of Prefixes</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>To Read More About Prefixes See the Table in Coding Section.</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>It makes Your Code Easier To Read. If in Future You want to </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Release an Upgrade of Your Product You can Read You Own Code Easily.</td>
+</tr>
+</table>
+</body>
+</html>
