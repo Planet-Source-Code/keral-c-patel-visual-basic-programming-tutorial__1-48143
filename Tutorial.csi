@@ -1,0 +1,10 @@
+[History]
+B0=Tutorial/frmFly2/Timer2_Timer
+B1=Tutorial/frmFly2/Form_Load
+B2=Tutorial/frmSplash/Form_Load
+B3=Tutorial/frmSplash/Timer1_Timer
+B4=Tutorial/frmSplash/FindDrives
+B5=Tutorial/frmMain/lblCaption_MouseDown
+B6=Tutorial/frmFly1/Form_Activate
+B7=Tutorial/Mod1
+B8=Tutorial/frmMain/lblClose_Click
